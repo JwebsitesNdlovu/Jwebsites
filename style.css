@@ -73,7 +73,7 @@ body{
     position: fixed;
     z-index: 999;
     width: 100%;
-    min-height: 80px;
+    height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;

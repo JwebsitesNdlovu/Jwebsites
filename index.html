@@ -356,7 +356,27 @@ buttons.forEach( button =>{
         loopCount: Infinity
     });
 </script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+  const menu = document.querySelector('#menu ul');
+  if (!menu) return;
 
+  const menuLinks = document.querySelectorAll('#menu ul li a');
+  if (!menuLinks.length) return;
+
+  menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      // Only close the dropdown on mobile/tablet where the hamburger is shown.
+      const barIcon = document.querySelector('.bar i');
+      const barVisible = barIcon && window.getComputedStyle(barIcon).display !== 'none';
+
+      if (barVisible || window.innerWidth <= 800) {
+        menu.classList.remove('show');
+      }
+    });
+  });
+});
+</script>
 
 </body>
 
