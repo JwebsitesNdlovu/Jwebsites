@@ -685,5 +685,4 @@ span{
 
 #TypedMessage ~ .typed-cursor {
     display: none; /* hides duplicate cursors */
-
 }
