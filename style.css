@@ -251,25 +251,25 @@ button{
     background-color: #000;
 }
 
-.contect{
+.contact{
     flex-wrap: wrap;
 }
-.contect h2{
+.contact h2{
     font-size: 1.8rem;
 }
 span{
     color: #29B6F6;
     text-decoration: underline;
 }
-#about .contect h3,#about .contect h3 span{
+#about .contact h3,#about .contact h3 span{
     letter-spacing: 1px;
     margin-bottom: 10px;
     color: rgba(0, 0, 0, 0.7);
 }
-#about .contect h3 span{
+#about .contact h3 span{
     color: var(--primery-color);
 }
-#about .contect p{
+#about .contact p{
     margin-bottom: 10px;
 }
 .row{
@@ -431,35 +431,35 @@ span{
 }
 
 
-#contect{
+#contact{
     width: 100%;
     padding: 5% 10%;
     background: var(--third-color);
 }
 
-#contect h2{
+#contact h2{
     font-size: 3.2rem;
     font-weight: 600;
 }
 
-#contect .contect-details{
+#contact .contact-details{
     display: flex;
     gap: 30px;
 }
 
-#contect .contect-details h3{
+#contact .contact-details h3{
     font-size: 2rem;
     font-weight: bolder;
 }
 
-#contect .contect-details h6{
+#contact .contact-details h6{
     font-size: 20px;
     color: var(--secondery-color);
     font-weight: 600;
     margin-bottom: 20px;
 }
 
-#contect form{
+#contact form{
     border: 2px solid #000;
     flex: 60%;
     padding: 30px;
@@ -467,7 +467,7 @@ span{
     background: #fff;
 }
 
-#contect form input,textarea{
+#contact form input,textarea{
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -476,46 +476,46 @@ span{
     border-bottom: 0.5px  solid #999;
 } 
 
-#contect form textarea{
+#contact form textarea{
     resize: vertical;
 }
 
-#contect form .name-email{
+#contact form .name-email{
     display: flex;
     gap: 20px;
     width: 100%;
 }
-#contect form .name-box{
+#contact form .name-box{
     flex: 50%;
 }
 
-#contect form .email-box{
+#contact form .email-box{
     flex: 50%;
 }
-#contect form label{
+#contact form label{
     display: block;
     margin: 2px 0;
     font-size: 18px;
     font-weight: 500;
 }
-#contect form button{
+#contact form button{
     margin-top: 20px;
     background: var(--primery-color);
     border: none;
     padding: 13px 20px;
 }
-#contect form button:hover{
+#contact form button:hover{
     background: #000;
 }
-#contect form button a{
+#contact form button a{
     color: #fff;
 }
-#contect .details{
+#contact .details{
     margin: 20px 0;
     flex: 50%;
 }
 
-#contect .detail-box{
+#contact .detail-box{
     display: flex;
     margin: 30px;
     align-items: flex-start;
@@ -525,27 +525,27 @@ span{
     border: 2px solid #000;
 }
 
-#contect .detail-box .box{
+#contact .detail-box .box{
     padding-top: 4px;
     border-top: 2px solid #000;
     width: 100%;
     flex-wrap: wrap;
 }
 
-#contect .detail-box .box:nth-child(1){
+#contact .detail-box .box:nth-child(1){
     border-top: none !important;
 }
-#contect .detail-box i{
+#contact .detail-box i{
     color: #fff;
     font-size: 16px;
 }
-#contect .detail-box .icon{
+#contact .detail-box .icon{
     background-color: var(--primery-color);
     padding: 10px 14px;
     border-radius: 50%;
 }
-#contect .detail-box h5,
-#contect .detail-box h4{
+#contact .detail-box h5,
+#contact .detail-box h4{
     font-size: 14px;
     font-weight: 600;
 }
@@ -588,7 +588,7 @@ span{
     #portfolio .porfolioCards{
         grid-template-columns: repeat(2,1fr);
     }
-    #contect{
+    #contact{
         padding: 10% 5%;
     }
     #footer{
@@ -647,7 +647,7 @@ span{
     #portfolio .porfolioCards{
         grid-template-columns: repeat(1,1fr);
     }
-    #contect .contect-details{
+    #contact .contact-details{
         flex-direction: column !important;
     }
     #footer{
@@ -685,4 +685,5 @@ span{
 
 #TypedMessage ~ .typed-cursor {
     display: none; /* hides duplicate cursors */
+
 }
